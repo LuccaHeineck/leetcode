@@ -1,2 +1,7 @@
-# leetcode
-Repository to keep leetcode solutions and notes
+## Progress
+
+EASY -> 0  
+MEDIUM -> 1  
+HARD -> 0
+
+Total: 1

@@ -1,0 +1,6 @@
+Copying an object in Java copies its address in memory, so using 2 variables for the ListNodes, I can keep the head at dummy and tail at current.
+Also, in Java, dividing an int by another int results in an int division, which already truncates the value.
+
+To solve this, we percorre each node for each list at the same time, checking if they are null, and summing its values, in case its bigger than 10, carry will take 1 to the next sum and module is used to decide which number will be the next val.
+
+This solution is O(N), because the loop runs once per digit of the longer list.
