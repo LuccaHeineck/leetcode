@@ -1,0 +1,6 @@
+So, my first idea was a double loop: get the first index and compare with all others, then next index and compare, when result found, return.
+However, my instincts tell me this is not efficient since it is O(n²).
+
+Upon reviewing best answer, I understand why my first attempt was flawed, I will still commit it, then commit the better after.
+
+The new solution has a complexity of O(n), since it only loops through the array once.
