@@ -1,0 +1,11 @@
+Idea:
+
+2 pointers
+
+they go for each number and the next one
+they go until substring is broken
+then save it to array
+they keep going and save substring to array
+then get the longest one in array
+
+i gotta be close
