@@ -8,4 +8,12 @@ then save it to array
 they keep going and save substring to array
 then get the longest one in array
 
-i gotta be close
+Okay that was wrong, since it was cutting off the char at the current index when repeated. 
+The current solution in python loops through the chars in the string and adds them to a substring var, updating the max length seen so far, to be either the maxlength or the current len of the substring, whichever is bigger.
+if a char is repeated in the substring, cut the substring up to the point where that index appeared and start the next substring with that chars
+
+
+Solved in python since it's easier to deal with strings
+Still have to solve it in java
+
+It was also solved in O(n²) where O(n) is possible.
