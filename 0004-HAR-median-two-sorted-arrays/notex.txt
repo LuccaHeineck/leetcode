@@ -1,1 +1,4 @@
 First idea: merge both arrays, then calculate median in final array.
+If its even length, get the average of the 2 middle, if it is odd, get the middle one.
+
+This solution is not the most optimal, since it is O((m+n) log(m+n)), and the problem asks for O(log(m+n)).
