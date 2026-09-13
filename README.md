@@ -1,7 +1,7 @@
 ## Progress
 
-EASY -> 0  
-MEDIUM -> 1  
-HARD -> 0
+EASY -> 1 
+MEDIUM -> 3  
+HARD -> 1
 
-Total: 1
+Total: 5
