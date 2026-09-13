@@ -1,0 +1,3 @@
+The solution is O(n) and consists in looping through all elements of the array and keeping track of the currentSum x maxSum.
+Basically check if the currentSUm should continue, or if the new element is better to start off as a new subarray.
+Then keep track of max sum.
